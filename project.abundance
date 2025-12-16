@@ -40,8 +40,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.13106796116504854,
-      "y": 0.26096997690531176,
+      "x": 0.11488673139158576,
+      "y": 0.21478060046189376,
       "uniqueID": "id-3831",
       "name": "Maslow4_Folding_Frame_Parts_hinge",
       "ioValues": [
@@ -1305,8 +1305,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.12998921251348436,
-      "y": 0.39953810623556585,
+      "x": 0.11488673139158576,
+      "y": 0.3695150115473441,
       "uniqueID": "id-4042",
       "name": "Maslow4_Folding_Frame_Parts_hinge-spacers",
       "ioValues": [
@@ -2738,9 +2738,206 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.06957928802588996,
+      "y": 0.4780600461893765,
+      "uniqueID": "id-4222",
+      "name": "x *2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8
+        }
+      ],
+      "currentEquation": "x *2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.0668824163969795,
+      "y": 0.5958429561200923,
+      "uniqueID": "id-4226",
+      "name": "x * 3",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8
+        }
+      ],
+      "currentEquation": "x * 3"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.0668824163969795,
+      "y": 0.7297921478060047,
+      "uniqueID": "id-4230",
+      "name": "x *4",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8
+        }
+      ],
+      "currentEquation": "x *4"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.0668824163969795,
+      "y": 0.8614318706697459,
+      "uniqueID": "id-4234",
+      "name": "x * 5",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8
+        }
+      ],
+      "currentEquation": "x * 5"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.22384034519956852,
+      "y": 0.3672055427251732,
+      "uniqueID": "id-4242",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.22276159654800431,
+      "y": 0.5103926096997691,
+      "uniqueID": "id-4248",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.22276159654800431,
+      "y": 0.651270207852194,
+      "uniqueID": "id-4254",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.22276159654800431,
+      "y": 0.8106235565819861,
+      "uniqueID": "id-4266",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.18122977346278316,
+      "y": 0.3648960739030023,
+      "uniqueID": "id-4272",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.1844660194174757,
+      "y": 0.6535796766743649,
+      "uniqueID": "id-4278",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3773",
+      "ap2ID": "id-4222"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3773",
+      "ap2ID": "id-4226"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3773",
+      "ap2ID": "id-4230"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3773",
+      "ap2ID": "id-4234"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
