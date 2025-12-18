@@ -29,7 +29,7 @@
     },
     {
       "name": "BoltDiameter",
-      "ioValue": 6.4
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -114,8 +114,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.1844660194174757,
-      "y": 0.3579676674364896,
+      "x": 0.19956850053937433,
+      "y": 0.4064665127020785,
       "uniqueID": "id-4242",
       "ioValues": [
         {
@@ -134,8 +134,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.1639697950377562,
-      "y": 0.48267898383371827,
+      "x": 0.2017259978425027,
+      "y": 0.6628175519630485,
       "uniqueID": "id-4248",
       "ioValues": [
         {
@@ -154,8 +154,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.19201725997842503,
-      "y": 0.5958429561200923,
+      "x": 0.2583603020496224,
+      "y": 0.42032332563510394,
       "uniqueID": "id-4254",
       "ioValues": [
         {
@@ -174,8 +174,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.1407766990291262,
-      "y": 0.3556581986143187,
+      "x": 0.15965480043149946,
+      "y": 0.394919168591224,
       "uniqueID": "id-4272",
       "ioValues": [
         {
@@ -194,8 +194,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.1402373247033441,
-      "y": 0.6304849884526559,
+      "x": 0.16073354908306364,
+      "y": 0.5288683602771362,
       "uniqueID": "id-4278",
       "ioValues": [
         {
@@ -238,8 +238,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.23408845738942824,
-      "y": 0.32101616628175517,
+      "x": 0.25674217907227614,
+      "y": 0.5519630484988453,
       "uniqueID": "id-5242",
       "ioValues": [
         {
@@ -258,8 +258,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.24757281553398058,
-      "y": 0.6466512702078522,
+      "x": 0.2599784250269687,
+      "y": 0.279445727482679,
       "uniqueID": "id-5248",
       "ioValues": [
         {
@@ -426,8 +426,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7901833872707659,
-      "y": 0.5288683602771362,
+      "x": 0.11434735706580366,
+      "y": 0.18475750577367206,
       "uniqueID": "id-7038",
       "name": "Maslow4_Folding_Frame_Parts_hinge",
       "ioValues": [
@@ -445,7 +445,7 @@
         },
         {
           "name": "BoltDiameter",
-          "ioValue": 6.4
+          "ioValue": 10
         },
         {
           "name": "BitDiameter",
@@ -626,7 +626,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.4
+              "ioValue": 10
             }
           ]
         },
@@ -902,7 +902,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-3.2-134.82426627478202-0-0",
+                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-5-134.82426627478202-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -1286,7 +1286,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-cut-cut-fuse-cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-3.2-134.82426627478202-0-0-move-rectangle-59.400000000000006-19.8--29.700000000000003-0-0-move-move-circle-3.2--39.6--9.9-0-2.262741699796952--2.262741699796952-0-move-move-circle-3.2-0-9.9-0--2.262741699796952-2.262741699796952-0-move-move-circle-3.2-0--9.9-0--2.262741699796952--2.262741699796952-0",
+                "geometry": "cut-cut-cut-fuse-cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-5-134.82426627478202-0-0-move-rectangle-59.400000000000006-19.8--29.700000000000003-0-0-move-move-circle-3.2--39.6--9.9-0-2.262741699796952--2.262741699796952-0-move-move-circle-3.2-0-9.9-0--2.262741699796952-2.262741699796952-0-move-move-circle-3.2-0--9.9-0--2.262741699796952--2.262741699796952-0",
                 "tags": [],
                 "bom": [
                   []
@@ -1315,7 +1315,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-cut-circle-69.3-circle-3.2-134.82426627478202-0-0",
+                "geometry": "move-cut-circle-69.3-circle-5-134.82426627478202-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1801,8 +1801,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.11380798274002157,
-      "y": 0.33718244803695147,
+      "x": 0.1111111111111111,
+      "y": 0.3187066974595843,
       "uniqueID": "id-7257",
       "name": "Maslow4_Folding_Frame_Parts_hinge-spacers",
       "ioValues": [
@@ -1820,7 +1820,7 @@
         },
         {
           "name": "BoltDiameter",
-          "ioValue": 6.4
+          "ioValue": 10
         },
         {
           "name": "BitDiameter",
@@ -2001,7 +2001,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.4
+              "ioValue": 10
             }
           ]
         },
@@ -2277,7 +2277,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-3.2-134.82426627478202-0-0",
+                "geometry": "cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-5-134.82426627478202-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -3206,17 +3206,17 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.374,
-      "uniqueID": "id-7691",
-      "name": "BoltDiameter",
+      "y": 0.44,
+      "uniqueID": "id-7694",
+      "name": "BitDiameter",
       "type": "number"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.44,
-      "uniqueID": "id-7694",
-      "name": "BitDiameter",
+      "y": 0.3810623556581986,
+      "uniqueID": "id-7698",
+      "name": "BoltDiameter",
       "type": "number"
     }
   ],
@@ -3439,16 +3439,6 @@
     {
       "ap2Name": "TabletopLength",
       "ap1ID": "id-7688",
-      "ap2ID": "id-7257"
-    },
-    {
-      "ap2Name": "BoltDiameter",
-      "ap1ID": "id-7691",
-      "ap2ID": "id-7038"
-    },
-    {
-      "ap2Name": "BoltDiameter",
-      "ap1ID": "id-7691",
       "ap2ID": "id-7257"
     },
     {
