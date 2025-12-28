@@ -28,6 +28,11 @@
     {
       "name": "BoltDiameter",
       "ioValue": 19.05
+    },
+    {
+      "name": "Bolt2Diameter",
+      "ioValue": 6.4,
+      "currentEquation": "6.4"
     }
   ],
   "topLevel": true,
@@ -1844,8 +1849,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.11434735706580366,
-      "y": 0.18475750577367206,
+      "x": 0.11326860841423947,
+      "y": 0.18706697459584296,
       "uniqueID": "id-8914",
       "name": "Maslow4_Folding_Frame_Parts_hinge",
       "ioValues": [
@@ -1871,7 +1876,7 @@
         },
         {
           "name": "Bolt2Diameter",
-          "ioValue": 10
+          "ioValue": 6.4
         }
       ],
       "topLevel": false,
@@ -2798,11 +2803,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 6.4
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 6.4
             }
           ]
         },
@@ -2854,7 +2859,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 5
+              "ioValue": 3.2
             }
           ]
         },
@@ -2867,7 +2872,7 @@
           "ioValues": [
             {
               "name": "z",
-              "ioValue": 10
+              "ioValue": 6.4
             }
           ],
           "currentEquation": "z/2"
@@ -2894,7 +2899,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 6.4
             }
           ]
         },
@@ -2939,7 +2944,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19.8-0-0-19.8",
+                "geometry": "move-extrude-rectangle-6.4-6.4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19.8-0-0-19.8",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -2966,7 +2971,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-59.400000000000006",
+                "geometry": "extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-59.400000000000006",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -3576,6 +3581,13 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-9394",
+      "name": "Bolt2Diameter"
     }
   ],
   "allConnectors": [
@@ -3818,6 +3830,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-8914",
       "ap2ID": "id-5238"
+    },
+    {
+      "ap2Name": "Bolt2Diameter",
+      "ap1ID": "id-9394",
+      "ap2ID": "id-8914"
     }
   ],
   "unitsKey": "MM",
